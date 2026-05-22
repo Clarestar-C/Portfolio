@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2b2b2b; /* Dark background */
+    color: #ffffff; /* White text */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #212121; /* Darker background for header */
+    padding: 1rem;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+header nav a {
+    color: #03a9f4; /* Blue accent for links */
+    text-decoration: none;
+}
+
+main {
+    max-width: 800px;
+    margin: auto;
+    padding: 2rem;
+}
+
+.university-logo {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin: 1rem auto;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1rem;
+}
+
+.project-card {
+    background-color: #333333; /* Dark background for project cards */
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.project-card h3 {
+    margin-top: 0;
+}
+
